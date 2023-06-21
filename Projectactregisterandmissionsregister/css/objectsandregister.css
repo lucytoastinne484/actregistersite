@@ -29,8 +29,21 @@ h3 {
     padding: 3px;
     color: #FFF;
     background-color: orangered;
+}
+
+.metaseobjetivos {
+    width: 100%;
 
 }
+
+.metaseobjetivos .btn {
+    width: 80%;
+    display:block;
+    margin-left: auto;
+    margin-right: right;
+}
+
+
 
 .btn {  
     display: block;
@@ -54,16 +67,26 @@ h3 {
 
 }
 
+#HELPGUIDE { 
+    background-color: red;
+    width: 21%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 8px;
+    object-position: center;
+
+}
+
+#HELPGUIDE:hover{
+    transition: .3s;
+    background-color: #29c85b;
+}
+
 h4 {
     background-color: rgb(0, 94, 255);
     color: #FFF;
     display:block;
     font-size: 24px;
-    border-top: #0b0b0b 3px;
-    border-bottom: #0b0b0b 3px;
-    border-right: #0b0b0b 3px;
-    border-left: #0b0b0b 3px;
-    border-style: solid;
     padding-left: 450px;
 }
 
@@ -77,18 +100,11 @@ h4 {
 
 .junedate {
     padding-left: 530px;
-    border-left: #ff5e00 ;
-    border-left-width: 3px; 
-    border-left-style: solid;
-    box-shadow: #676767;
 }
 
 .julydate {
     padding-left: 530px;
-    border-left: #ff5e00;
-    border-left-width: 3px;
-    border-left-style: solid;
-    box-shadow: #676767;
+
 }
 
 
@@ -118,7 +134,6 @@ h4 {
 
 footer {
     background-color:#000000;
-    border-top: #ff0000 6px ;
     color: #FFF;
     text-align: center;
     padding:80px;
